@@ -13,6 +13,8 @@
 		75E568402176496A006A032D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E5683F2176496A006A032D /* Assets.xcassets */; };
 		75E568432176496A006A032D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E568412176496A006A032D /* LaunchScreen.storyboard */; };
 		75E5684E21764CB9006A032D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5684D21764CB8006A032D /* CategoryCell.swift */; };
+		75E5685021764E60006A032D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5684F21764E60006A032D /* Category.swift */; };
+		75E5685321764FEB006A032D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5685221764FEB006A032D /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		75E568422176496A006A032D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E568442176496A006A032D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E5684D21764CB8006A032D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		75E5684F21764E60006A032D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		75E5685221764FEB006A032D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		75E5683721764968006A032D /* Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				75E5685121764FDB006A032D /* Services */,
 				75E5684C21764C98006A032D /* Models */,
 				75E5684B21764C8D006A032D /* Views */,
 				75E5684A2176499E006A032D /* Controllers */,
@@ -87,8 +92,17 @@
 		75E5684C21764C98006A032D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				75E5684F21764E60006A032D /* Category.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		75E5685121764FDB006A032D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				75E5685221764FEB006A032D /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				75E5683B21764968006A032D /* CategoriesVC.swift in Sources */,
 				75E5683921764968006A032D /* AppDelegate.swift in Sources */,
 				75E5684E21764CB9006A032D /* CategoryCell.swift in Sources */,
+				75E5685021764E60006A032D /* Category.swift in Sources */,
+				75E5685321764FEB006A032D /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
